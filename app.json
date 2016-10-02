@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/topics/topics",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/profile/profile",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "backgroundColor":"#fff",
+    "navigationBarBackgroundColor":"#ec4940",
+    "navigationBarTitleText":"Ruby China",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#80bd01",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/topics/topics",
+      "text": "首页",
+      "iconPath":"images/tabBar/my.png",
+      "selectedIconPath":"images/tabBar/my_hl.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "收藏",
+      "iconPath":"images/tabBar/list.png",
+      "selectedIconPath":"images/tabBar/list_hl.png"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "text": "我",
+      "iconPath":"images/tabBar/my.png",
+      "selectedIconPath":"images/tabBar/my_hl.png"
+    }]
+  }
+}

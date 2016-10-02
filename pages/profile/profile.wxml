@@ -1,0 +1,4 @@
+<!--profile.wxml-->
+<view class="profile-view">
+    <view class="profile-item" id="login" catchtap="onTapTag">登录</view>
+</view>
